@@ -24,7 +24,7 @@ export function PostsGrid() {
     }, []);
     
     return <div className="posts">
-        <h1 className="posts__title">Все посты</h1>
+        <h1 className="posts__title page-title">Все посты</h1>
         <div className="posts__grid">
             {isLoading && <div>...loading</div>}
             {posts && posts.map((post, index) => <PostMiniCard key={index} postData={post} />)}
