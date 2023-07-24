@@ -1,0 +1,14 @@
+.header {
+  flex: 0 0 70px;
+}
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  height: 100%;
+}
+
+.header__links_list {
+  
+}
